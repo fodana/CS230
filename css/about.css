@@ -1,0 +1,30 @@
+body{
+    font-family: 'Arial';
+    text-align: center;
+}
+
+p{
+    color:rgb(56, 52, 52);
+}
+
+.about{
+    background-color: blanchedalmond;
+    padding: 8px;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}
+
+.column{
+    float: left;
+    margin-right: 16px;
+    margin: 10px;
+    width: 22%;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0 #b3b3b3f5;
+    padding: 0 16px 0 16px;
+}
