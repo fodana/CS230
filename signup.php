@@ -35,7 +35,7 @@ require "includes/header.php"
                         <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password"
                             required>
                         
-                        <button class="btn btn-lg btn-outline-primary btn-block" name="signup-submit" type="submit">Sign in</button>
+                        <button class="btn btn-lg btn-outline-primary btn-block" name="signup-submit" type="submit">Sign up</button>
                         <p class="mt-5 mb-3 text-muted">&copy; 2021-9999</p>
                     </form>
                 </div>
