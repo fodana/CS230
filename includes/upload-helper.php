@@ -35,7 +35,7 @@ if(isset($_POST['prof-submit'])){
     }
     
     else{
-        $new_name = uniqid('', true).".".$ext;
+        $new_name = uniqid('',true).".".$ext;
 
         $destination = '../profiles/'.$new_name;
 
