@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+img{
+    max-width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+    padding: 5px;
+}
+
+.gallery-container a{
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.gallery-container a:hover{
+    opacity: 70%;
+    text-decoration-color: beige;
+}

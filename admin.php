@@ -6,7 +6,7 @@ require 'includes/dbhandler.php';
 <main>
     <link rel="stylesheet" href="css/profile.css">
     <script>
-    function triggereed() {
+    function triggered() {
         document.querySelector("#gallery-image").click();
     }
 
@@ -32,16 +32,13 @@ if(isset($_SESSION['uid'])){
                     <img src="images/3.png" alt="profile pic" onclick="triggered();" id="gallery-display">
 
                     <input type="text" name="title" class="form-control" placeholder="title">
-                    <input type="file" name="gallery-image" id="gallery-image" onchange="preview(this)" class="form-control"
-                        style="display: none;">
+                    <input type="file" name="gallery-image" id="gallery-image" onchange="preview(this)" class="form-control" style="display: none;">
                 </div>
                 <div class="form-group">
-                    <textarea name="descript" id="bio" cols="30" rows="10" placeholder="Description"
-                        style="text-align: center;"></textarea>
+                    <textarea name="descript" id="bio" cols="30" rows="10" placeholder="Description" style="text-align: center;"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" name="gallery-submit"
-                        class="btn btn-outline-success btn-lg btn-block">upload</button>
+                    <button type="submit" name="gallery-submit" class="btn btn-outline-success btn-lg btn-block">upload</button>
                 </div>
             </form>
         </div>
